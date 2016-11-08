@@ -7,7 +7,7 @@ class testi{
 	package { "libapache2-mod-php": }
 
 	file {"/var/www/html/index.html":
-	content => "toimiihan se?",
+	content => "hieno on?",
 }
 
 	file { '/etc/apache2/mods-enabled/userdir.conf':
