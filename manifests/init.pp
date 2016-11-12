@@ -1,10 +1,13 @@
-class testi{
+class har6 {
 	Package { ensure => "installed", allowcdrom => "true",}
 	
 	package { "gedit": }
 	package { "apache2": }
 	package { "ssh": }
 	package { "libapache2-mod-php": }
+	package { "arduino-core": }
+	package { "curl": }
+	package { "gedit-plugins": }
 
 	file {"/var/www/html/index.html":
 	content => "hieno on?",
@@ -29,5 +32,18 @@ class testi{
 }
 	file { "/etc/skel/public_html":
 	ensure => 'directory',
+}
+	file {"/etc/skel/public_html/vieras.php":
+	content => "homepage",
+}
+	user { "peto":
+			ensure => "present",
+	gid =>"101",
+	home => "/home/peto",
+	password => "Vad.Qd5",
+	password_max_age => "99999",
+	password_min_age => "0",
+	shell => "/bin/bash",
+	uid => "135",	
 }
 }
