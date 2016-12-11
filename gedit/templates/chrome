@@ -1,0 +1,66 @@
+{
+   "checksum": "e1cddf0eae44ab656f9cbf8bf62ed3d9",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13125660096890973",
+            "id": "7",
+            "name": "Iltalehti.fi | IL - Suomen suurin uutispalvelu",
+            "type": "url",
+            "url": "http://www.iltalehti.fi/"
+         }, {
+            "date_added": "13125660121809742",
+            "id": "8",
+            "name": "Ilta-Sanomat - IS - Suomen suurin uutismedia",
+            "type": "url",
+            "url": "http://www.iltasanomat.fi/"
+         }, {
+            "date_added": "13125660138550837",
+            "id": "9",
+            "name": "Google",
+            "type": "url",
+            "url": "https://www.google.fi/?gws_rd=ssl"
+         }, {
+            "date_added": "13125660183024611",
+            "id": "10",
+            "name": "Helsingin Sanomat - Etusivu",
+            "type": "url",
+            "url": "http://www.hs.fi/"
+         }, {
+            "date_added": "13125660252412241",
+            "id": "11",
+            "name": "Haaga-Helia Launchpad - Pasila",
+            "type": "url",
+            "url": "http://hhlp.info/"
+         }, {
+            "date_added": "13125660276013776",
+            "id": "12",
+            "name": "Facebook - Log In or Sign Up",
+            "type": "url",
+            "url": "https://www.facebook.com/"
+         } ],
+         "date_added": "13125659544240514",
+         "date_modified": "13125660276013776",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13125659544240519",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13125659544240520",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
